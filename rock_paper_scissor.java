@@ -16,11 +16,11 @@ else if(c1=='P' && c2=='S')
 {
 System.out.println("S");
 }
-else
-{
-if(c1=='R' && c2=='S')
+else if(c1=='R' && c2=='S')
 {
 System.out.println("R");
 }
+else{
+System.out.println("0");
 }
 }}
