@@ -10,7 +10,8 @@ int main() {
     printf("%d %d \n",sizeofarray,k);
     for (i=0;i<sizeofarray;i++)
     {
-        printf("%d ",a[i]);
+        printf("%d",a[i]);
+        printf(" ");
     }
     return 0;
 }
